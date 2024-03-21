@@ -9,11 +9,11 @@ load_dotenv()
 
 TOKEN = os.getenv("TOKEN")
 # BOT_USERNAME: Final = '@aachen_termin_bot'
-CHANNEL_ID: Final = '@aachen_termin'
+CHANNEL_ID: Final = '@Hbf_Termin_Bot'
 URL: Final = 'https://aachen-termin-bot.onrender.com'
 
 def start_command(update, context):
-    update.message.reply_text("Hello! Welcome to Aachen Termin Bot! Join the channel @aachen_termin to get notified when appointment is available!", parse_mode = ParseMode.HTML)
+    update.message.reply_text("Hello! Welcome to Aachen Termin Bot! Join the channel @Hbf_Termin_Bot to get notified when appointment is available!", parse_mode = ParseMode.HTML)
 
 def termin_command(update, context):
     _, res = aachen_termin()

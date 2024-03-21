@@ -79,7 +79,7 @@ def aachen_termin():
     # url_3 = "https://termine.staedteregion-aachen.de/auslaenderamt/suggest?mdt=52&select_cnc=1&cnc-204=0&cnc-205=0&cnc-198=0&cnc-201=0&cnc-202=0&cnc-189=0&cnc-203=0&cnc-196=0&cnc-200=0&cnc-199=0&cnc-188=0&cnc-186=0&cnc-193=0&cnc-183=0&cnc-184=0&cnc-185=0&cnc-187=0&cnc-190=0&cnc-195=0&cnc-191=1&cnc-194=0&cnc-197=0&cnc-192=0"    
     # url_3 = 'https://termine.staedteregion-aachen.de/auslaenderamt/suggest?mdt=75&select_cnc=1&cnc-204=0&cnc-205=0&cnc-198=0&cnc-201=0&cnc-202=0&cnc-227=0&cnc-189=0&cnc-203=0&cnc-196=0&cnc-190=0&cnc-185=0&cnc-187=0&cnc-188=0&cnc-186=0&cnc-192=0&cnc-191=1&cnc-194=0&cnc-197=0&cnc-193=0&cnc-183=0&cnc-184=0&cnc-195=0&cnc-200=0&cnc-225=0'
     url_3 = 'https://termine.staedteregion-aachen.de/auslaenderamt/location?mdt=78&select_cnc=1&cnc-204=0&cnc-205=0&cnc-198=1&cnc-201=0&cnc-202=0&cnc-227=0&cnc-232=0&cnc-203=0&cnc-196=0&cnc-190=0&cnc-185=0&cnc-187=0&cnc-188=0&cnc-186=0&cnc-192=0&cnc-191=0&cnc-194=0&cnc-197=0&cnc-193=0&cnc-183=0&cnc-184=0&cnc-195=0&cnc-200=0&cnc-228=0'
-    url_4 = 'https://termine.staedteregion-aachen.de/auslaenderamt/suggest?cnc-191=1&loc=28'             
+    url_4 = 'https://termine.staedteregion-aachen.de/auslaenderamt/suggest?cnc-198=1&loc=30'             
     res_2 = requests.get(url_2, headers=headers)            
     res_3 = requests.get(url_3, headers=headers,cookies=res_2.cookies)    
     payload = {'loc':'30', 'gps_lat': '50.768703', 'gps_long': '6.091849', 'select_location': 'Ausländeramt Aachen, 2. Etage auswählen'}
